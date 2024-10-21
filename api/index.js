@@ -72,7 +72,7 @@ app.get('/profile',(req,res)=>{
   }else{
     res.json(null);
   }
-  res.json('user info');
+  
 })
 app.listen(4000);
 
